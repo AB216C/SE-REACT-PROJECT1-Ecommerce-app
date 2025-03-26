@@ -1,12 +1,3 @@
-# React + Vite
+**E-COMMERCE LISTPROJECT-GENZ's CAR SHOP**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project involves accessing GENZ's shop database and displaying a list of cars along with their name, price, and description. Using "useState()" was used to store the list of our cars for the created database. Using the map() function was essential for iterating each product/car in the list. Incorporating "props" in functional components such as "productItemDetails" and "ProductList" was very important in making sure all data stored in "productsList" could be passed through from one functional component to another to be manipulated accordingly. Filter() function was useful in categorizing cars based on prices, especially, it helped in listing the top 3 cars with the lowest price in the shop. Using module.css was very essential in making custom styles for each functional component in this project.
