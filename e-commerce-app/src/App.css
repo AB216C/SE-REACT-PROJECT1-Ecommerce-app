@@ -45,3 +45,8 @@
   background-color:blue;
   border:3px solid black;
 }
+
+img {
+  width:100%;
+  height:50%;
+}
